@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest id="5862d782-2f67-47cf-80bf-e639b4cd2278" name="Test Quest">
+  <Requirements />
+  <Rewards>
+    <ItemChoiceReward>
+      <ItemRewards>
+        <ItemReward id="123" />
+        <ItemReward id="456" quantity="2" />
+      </ItemRewards>
+    </ItemChoiceReward>
+  </Rewards>
+</Quest>

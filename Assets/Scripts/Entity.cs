@@ -23,7 +23,6 @@ public abstract class Entity : MonoBehaviour {
 	{
 		if (movementVector != Vector3.zero)
 		{
-			Vector3 previousPosition = transform.position;
 			transform.Translate(movementVector * Time.deltaTime * MovementSpeed);
 			transform.Rotate(Vector3.forward, Mathf.Atan2(movementVector.y, movementVector.x) * -1 * RotationSpeed);
 		}

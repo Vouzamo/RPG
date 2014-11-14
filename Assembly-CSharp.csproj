@@ -48,7 +48,20 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Entity.cs" />
+     <Compile Include="Assets\Scripts\ItemChoiceReward.cs" />
+     <Compile Include="Assets\Scripts\ItemReward.cs" />
      <Compile Include="Assets\Scripts\PlayableCharacter.cs" />
+     <Compile Include="Assets\Scripts\PlayerRequirement.cs" />
+     <Compile Include="Assets\Scripts\Quest.cs" />
+     <Compile Include="Assets\Scripts\Requirement.cs" />
+     <Compile Include="Assets\Scripts\Reward.cs" />
+     <Compile Include="Assets\Scripts\SerializableList.cs" />
+     <Compile Include="Assets\Scripts\StatReward.cs" />
+     <Compile Include="Assets\Scripts\XmlRepository.cs" />
+     <None Include="Assets\Xml\quest-1d94fa5e-1033-4642-b0dc-8ef548dcc53b.xml" />
+     <None Include="Assets\Xml\quest-09c4d55e-81aa-431f-a899-bb9381808f3f.xml" />
+     <None Include="Assets\Xml\quest-e9319ca8-f947-44ed-823c-bdb1f0bb81fb.xml" />
+     <None Include="Assets\Xml\quest-5862d782-2f67-47cf-80bf-e639b4cd2278.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

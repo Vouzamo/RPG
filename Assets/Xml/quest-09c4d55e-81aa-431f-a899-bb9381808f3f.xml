@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest id="09c4d55e-81aa-431f-a899-bb9381808f3f" name="My new Quest">
+  <Requirements>
+    <PlayerRequirement level="10" />
+  </Requirements>
+  <Rewards>
+    <StatReward experience="1000" />
+    <ItemReward id="100" quantity="3" />
+  </Rewards>
+</Quest>
