@@ -1,0 +1,11 @@
+C:\Projects\Git\Unity\RPG\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\UnityEditor.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\UnityEngine.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\Mono.Cecil.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\nunit.framework.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\Unity.DataContract.dll
+C:\Projects\Git\Unity\RPG\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Projects\Git\Unity\RPG\obj\Debug\Assembly-CSharp.dll
+C:\Projects\Git\Unity\RPG\obj\Debug\Assembly-CSharp.pdb
