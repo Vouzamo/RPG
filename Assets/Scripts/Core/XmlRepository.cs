@@ -21,11 +21,11 @@ namespace RPG.Assets.Scripts.Core
         #region Methods
         public T GetById(Guid id)
         {
-            string filename = string.Format("{0}-{1}.xml", typeof (T).ToString().ToLower(), id);
+            string filename = string.Format("{0}-{1}.xml", typeof(T).Name.ToLower(), id);
             T record;
 
-            XmlSerializer deserializer = new XmlSerializer(typeof (T));
-            using (TextReader reader = new StreamReader(string.Format(Directory + "\\{0}", filename)))
+            XmlSerializer deserializer = new XmlSerializer(typeof(T));
+            using(TextReader reader = new StreamReader(string.Format(Directory + "\\{0}", filename)))
             {
                 record = (T) deserializer.Deserialize(reader);
             }
@@ -35,13 +35,13 @@ namespace RPG.Assets.Scripts.Core
 
         public void Update(T record)
         {
-            string filename = string.Format("{0}-{1}.xml", typeof (T).ToString().ToLower(), record.Id);
+            string filename = string.Format("{0}-{1}.xml", typeof(T).Name.ToLower(), record.Id);
 
             XmlSerializerNamespaces xns = new XmlSerializerNamespaces();
             xns.Add(string.Empty, string.Empty);
 
             XmlSerializer serializer = new XmlSerializer(typeof (T));
-            using (TextWriter writer = new StreamWriter(string.Format(Directory + "\\{0}", filename)))
+            using(TextWriter writer = new StreamWriter(string.Format(Directory + "\\{0}", filename)))
             {
                 serializer.Serialize(writer, record, xns);
             }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace RPG.Assets.Scripts.Core
+namespace RPG.Assets.Scripts.Data
 {
     public class GenericListDeSerializer<T>
     {

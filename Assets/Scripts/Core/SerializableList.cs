@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
+using RPG.Assets.Scripts.Data;
 
 namespace RPG.Assets.Scripts.Core
 {
