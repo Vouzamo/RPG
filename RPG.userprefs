@@ -1,12 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Core\GenericListSerializer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Data\Chunk.cs">
     <Files>
+      <File FileName="Assets\Scripts\MonoBehaviour\God.cs" Line="52" Column="5" />
       <File FileName="Assets\Scripts\MonoBehaviour\PlayableCharacter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Core\XmlRepository.cs" Line="37" Column="10" />
+      <File FileName="Assets\Scripts\Core\XmlRepository.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Core\GenericListDeSerializer.cs" Line="1" Column="1" />
-      <File FileName="c:\Projects\Git\Unity\RPG\Assets\Scripts\Core\SerializableList.cs" Line="6" Column="31" />
-      <File FileName="Assets\Scripts\Core\GenericListSerializer.cs" Line="65" Column="1" />
+      <File FileName="c:\Projects\Git\Unity\RPG\Assets\Scripts\Core\SerializableList.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Core\GenericListSerializer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Data\World.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MonoBehaviour\Entity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MonoBehaviour\Character.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Data\ItemReward.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Data\StatReward.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Data\Chunk.cs" Line="74" Column="30" />
+      <File FileName="Assets\Scripts\Data\Prefab.cs" Line="11" Column="29" />
+      <File FileName="Assets\Scripts\Data\Tile.cs" Line="20" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

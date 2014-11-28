@@ -51,20 +51,26 @@
      <Compile Include="Assets\Scripts\Core\IXmlRepository.cs" />
      <Compile Include="Assets\Scripts\Core\SerializableList.cs" />
      <Compile Include="Assets\Scripts\Core\XmlRepository.cs" />
+     <Compile Include="Assets\Scripts\Data\Chunk.cs" />
      <Compile Include="Assets\Scripts\Data\ItemChoiceReward.cs" />
      <Compile Include="Assets\Scripts\Data\ItemReward.cs" />
      <Compile Include="Assets\Scripts\Data\PlayerRequirement.cs" />
+     <Compile Include="Assets\Scripts\Data\Prefab.cs" />
      <Compile Include="Assets\Scripts\Data\Quest.cs" />
      <Compile Include="Assets\Scripts\Data\Requirement.cs" />
      <Compile Include="Assets\Scripts\Data\Reward.cs" />
      <Compile Include="Assets\Scripts\Data\StatReward.cs" />
+     <Compile Include="Assets\Scripts\Data\Tile.cs" />
+     <Compile Include="Assets\Scripts\Data\World.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviour\Character.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviour\Entity.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviour\God.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviour\PlayableCharacter.cs" />
      <None Include="Assets\Xml\quest-96f80e86-3c45-4f5a-8464-228280e7842e.xml" />
      <None Include="Assets\Xml\quest-1d94fa5e-1033-4642-b0dc-8ef548dcc53b.xml" />
      <None Include="Assets\Xml\quest-09c4d55e-81aa-431f-a899-bb9381808f3f.xml" />
      <None Include="Assets\Xml\quest-e9319ca8-f947-44ed-823c-bdb1f0bb81fb.xml" />
+     <None Include="Assets\Xml\world-4e9b0641-b915-4259-b83e-c5ff96f86db9.xml" />
      <None Include="Assets\Xml\quest-5862d782-2f67-47cf-80bf-e639b4cd2278.xml" />
      <None Include="Assets\Xml\quest-daebea20-8757-446b-913d-572b62c1b72d.xml" />
   </ItemGroup>
